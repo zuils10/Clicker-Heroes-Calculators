@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CH Calcs</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/light-theme.css" id="theme-light" title="Light" disabled>
+	<link rel="stylesheet" href="css/dark-theme.css" id="theme-dark" title="Dark">
+	<script>
+        if (localStorage) {
+            if (localStorage.getItem("darkmode")==="false") {
+                document.getElementById("theme-light").disabled = false;
+                document.getElementById("theme-dark").disabled = true;
+            }
+        }
+    </script>
+	<link rel="icon" type="image/jpeg" href="borb.jpeg">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" defer></script>
+</head>
+<h1>
+	<div class="title">Clicker Heroes Calculators</div>
+</h1>
+<body>
+	<p>
+		<div class="content">
+			<input type="radio" id="darkmode" name="theme" onclick="changeTheme()">
+			<label for="darkmode">Dark Mode</label>
+			<input type="radio" id="lightmode" name="theme" onclick="changeTheme()">
+			<label for="lightmode">Light Mode</label>
+		</div>
+	</p>
+	This is the body.
+	<script src="js/main.js" defer></script>
+</body>
+</html>

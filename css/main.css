@@ -120,7 +120,8 @@ textarea {
 
 h1 {
 	margin: 0;
-	font-size: 18px;
+	font-size: 30px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 p {

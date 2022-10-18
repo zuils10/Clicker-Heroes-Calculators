@@ -11,5 +11,5 @@ function changeTheme() {
 			$("#theme-light").prop("disabled", true);
 			$("#theme-dark").prop("disabled", false);
 		}
-	})
-}
+	});
+};

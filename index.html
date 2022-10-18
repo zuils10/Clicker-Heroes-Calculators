@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>CH Calcs</title>
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/light-theme.css" id="theme-light" title="Light" disabled>
 	<link rel="stylesheet" href="css/dark-theme.css" id="theme-dark" title="Dark">
@@ -22,15 +23,10 @@
 </head>
 <h1>
 	<div class="title">Clicker Heroes Calculators</div>
+	<i class="bi bi-moon-fill" id="lightmode" onclick="changeTheme()"></i>
 </h1>
 <body>
 	<p>
-		<div class="content">
-			<input type="radio" id="darkmode" name="theme" onclick="changeTheme()">
-			<label for="darkmode">Dark Mode</label>
-			<input type="radio" id="lightmode" name="theme" onclick="changeTheme()">
-			<label for="lightmode">Light Mode</label>
-		</div>
 	</p>
 	This is the body.
 	<script src="js/main.js" defer></script>
